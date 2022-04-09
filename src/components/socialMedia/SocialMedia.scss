@@ -68,6 +68,11 @@
   background-color: $instagram;
 }
 
+.outlook i {
+  background-color: $outlook;
+}
+
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -78,6 +83,7 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
+.outlook i:hover,
 .medium i:hover {
   background-color: $textColor;
 }

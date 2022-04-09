@@ -5,6 +5,7 @@ import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
 import failure_animation from "../../assets/lottie/failure_animation";
 import landingPerson2 from "../../assets/lottie/landingPerson2";
+import business from "../../assets/lottie/business-analysis";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -54,7 +55,7 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson2} />
+              <DisplayLottie animationData={business} />
             ) : (
               <img
                 alt="man sitting on table"

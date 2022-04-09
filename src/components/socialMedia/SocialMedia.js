@@ -127,6 +127,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.outlook ? (
+        <a
+          href={socialMediaLinks.outlook}
+          className="icon-button outlook"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-microsoft"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }
