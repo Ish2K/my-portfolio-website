@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Techish",
+  title: "Hi all, I'm Ishaan",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -125,23 +125,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Bennett University",
+      logo: require("./assets/images/bennettLogo.png"),
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "July 2018 - May 2022",
+      desc: "Times of India affiliated university",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "CGPA:9.2",
+        "Worked as a Tech lead in Codechef Student Chapter",
+        "Selected for ACM ICPC regionals."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Amity International School, Saket",
+      logo: require("./assets/images/amityLogo.jpeg"),
+      subHeader: "Central Board of Secondary Education",
+      duration: "April 2017 - June 2018",
+      desc: "One of the top schools in India.",
+      descBullets: [
+        "CBSE result - 94%"
+      ]
     }
   ]
 };
@@ -359,7 +362,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
   email_address: "ishaan.gupta04@hotmail.com"
 };
 
