@@ -113,7 +113,8 @@ if (MEDIUM_USERNAME !== undefined) {
     }
 
     res.on("data", d => {
-      mediumData += d;
+      if(!(d.includes("3-D paradise")))mediumData += d;
+      
     });
     res.on("end", () => {
       fs.writeFile("./public/blogs.json", mediumData, function (err) {
